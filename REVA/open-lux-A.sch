@@ -724,12 +724,6 @@
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="+3V3">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
@@ -749,19 +743,6 @@
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="VCC" symbol="VCC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+3V3" prefix="+3V3">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="+3V3" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -16288,7 +16269,6 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="LUXRGB" library="dwbLibrary" deviceset="TCS34725" device=""/>
 <part name="U$3" library="microbuilder" deviceset="GND" device=""/>
 <part name="C15" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="N1" library="con-lstb" deviceset="MA08-1" device=""/>
 <part name="P+11" library="supply1" deviceset="VCC" device=""/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
@@ -16318,6 +16298,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="IRP" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="IRG" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
+<part name="P+4" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16430,7 +16411,6 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="LUXRGB" gate="G$1" x="382.016" y="-25.908"/>
 <instance part="U$3" gate="G$1" x="364.236" y="-56.388"/>
 <instance part="C15" gate="G$1" x="399.796" y="-23.368"/>
-<instance part="+3V8" gate="G$1" x="364.236" y="9.652"/>
 <instance part="N1" gate="1" x="416.306" y="133.35"/>
 <instance part="P+11" gate="VCC" x="486.664" y="143.51"/>
 <instance part="P+12" gate="VCC" x="443.23" y="145.542"/>
@@ -16477,6 +16457,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="IRP" gate="G$1" x="226.06" y="121.92"/>
 <instance part="IRG" gate="G$1" x="226.06" y="109.22"/>
 <instance part="P+3" gate="VCC" x="304.8" y="101.854"/>
+<instance part="P+4" gate="VCC" x="364.236" y="7.366"/>
 </instances>
 <busses>
 </busses>
@@ -16890,6 +16871,16 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="304.8" y1="99.314" x2="305.054" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="305.054" y1="96.52" x2="305.054" y2="90.678" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="LUXRGB" gate="G$1" pin="VDD"/>
+<wire x1="374.396" y1="-33.528" x2="364.236" y2="-33.528" width="0.1524" layer="91"/>
+<wire x1="364.236" y1="-33.528" x2="364.236" y2="2.032" width="0.1524" layer="91"/>
+<wire x1="364.236" y1="2.032" x2="399.796" y2="2.032" width="0.1524" layer="91"/>
+<wire x1="399.796" y1="2.032" x2="399.796" y2="-20.828" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="364.236" y1="2.032" x2="364.236" y2="4.826" width="0.1524" layer="91"/>
+<pinref part="P+4" gate="VCC" pin="VCC"/>
+</segment>
 </net>
 <net name="AREF" class="0">
 <segment>
@@ -17290,19 +17281,6 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="391.668" y1="67.31" x2="398.018" y2="65.024" width="0.1524" layer="91"/>
 <wire x1="398.018" y1="65.024" x2="398.018" y2="64.77" width="0.1524" layer="91"/>
 <label x="398.526" y="65.278" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="+3V3" class="0">
-<segment>
-<pinref part="LUXRGB" gate="G$1" pin="VDD"/>
-<wire x1="374.396" y1="-33.528" x2="364.236" y2="-33.528" width="0.1524" layer="91"/>
-<wire x1="364.236" y1="-33.528" x2="364.236" y2="2.032" width="0.1524" layer="91"/>
-<wire x1="364.236" y1="2.032" x2="364.236" y2="7.112" width="0.1524" layer="91"/>
-<wire x1="364.236" y1="2.032" x2="399.796" y2="2.032" width="0.1524" layer="91"/>
-<wire x1="399.796" y1="2.032" x2="399.796" y2="-20.828" width="0.1524" layer="91"/>
-<junction x="364.236" y="2.032"/>
-<pinref part="C15" gate="G$1" pin="1"/>
-<pinref part="+3V8" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="VIS-NIR-INT" class="0">
