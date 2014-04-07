@@ -18309,7 +18309,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
 <part name="THM1" library="adafruit" deviceset="1X2" device="-3.5MM"/>
 <part name="RTHM1" library="rcl" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="J2" library="jumper" deviceset="JP1E" device=""/>
+<part name="LCDLIGHT" library="jumper" deviceset="JP1E" device=""/>
 <part name="RIR3" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="RIR4" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
@@ -18465,7 +18465,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <attribute name="NAME" x="265.176" y="-3.0734" size="1.778" layer="95"/>
 <attribute name="VALUE" x="265.176" y="-5.334" size="1.778" layer="96"/>
 </instance>
-<instance part="J2" gate="A" x="475.996" y="137.16" rot="R180"/>
+<instance part="LCDLIGHT" gate="A" x="475.996" y="137.16" rot="R180"/>
 <instance part="RIR3" gate="G$1" x="208.28" y="147.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="212.09" y="147.32" size="1.778" layer="95"/>
 <attribute name="VALUE" x="209.55" y="144.78" size="1.778" layer="96"/>
@@ -18864,7 +18864,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="P+11" gate="VCC" pin="VCC"/>
 <wire x1="485.902" y1="138.684" x2="486.664" y2="140.97" width="0.1524" layer="91"/>
-<pinref part="J2" gate="A" pin="1"/>
+<pinref part="LCDLIGHT" gate="A" pin="1"/>
 <wire x1="475.996" y1="139.7" x2="485.902" y2="138.684" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -19430,7 +19430,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="N1" gate="1" pin="7"/>
 <wire x1="423.926" y1="140.97" x2="473.71" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="J2" gate="A" pin="2"/>
+<pinref part="LCDLIGHT" gate="A" pin="2"/>
 <wire x1="473.71" y1="142.24" x2="473.456" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
