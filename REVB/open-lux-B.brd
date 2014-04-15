@@ -162,7 +162,7 @@
 <text x="29.972" y="36.576" size="0.8128" layer="21" rot="R90">RGB</text>
 <text x="50.038" y="11.684" size="0.8128" layer="22" rot="MR0">MOSI</text>
 <text x="50.292" y="8.636" size="0.8128" layer="22" rot="MR0">VBUS</text>
-<text x="38.608" y="9.398" size="0.8128" layer="22" rot="MR180">MISO</text>
+<text x="38.608" y="8.382" size="0.8128" layer="22" rot="MR180">MISO</text>
 <text x="38.862" y="12.446" size="0.8128" layer="22" rot="MR180">SCK</text>
 <text x="37.846" y="14.732" size="0.8128" layer="22" rot="MR180">RESET</text>
 <text x="31.242" y="33.274" size="0.8128" layer="22" rot="MR0">RGB</text>
