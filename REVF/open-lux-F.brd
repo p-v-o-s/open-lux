@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.000393700787" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -15,7 +15,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -136,17 +136,17 @@
 <text x="52.022" y="13.38" size="0.8128" layer="22" rot="MR90">SCK</text>
 <text x="52.028" y="10.81" size="0.8128" layer="22" rot="MR90">RST</text>
 <text x="54.102" y="53.116" size="1.4224" layer="22" font="vector" rot="MR270">publiclab.org/wiki/open-lux</text>
-<text x="40.288" y="48.942" size="1.6764" layer="21" font="vector" rot="R180">***OPEN-LUX***</text>
+<text x="40.798" y="49.862" size="1.9304" layer="21" font="vector" rot="R180">***OPEN-LUX***</text>
 <text x="2.032" y="8.128" size="1.27" layer="21" font="vector" rot="R270">USB</text>
 <text x="1.27" y="19.05" size="1.27" layer="21" font="vector" rot="R270">JST</text>
 <text x="29.062" y="39.568" size="0.8128" layer="21" font="vector" rot="R180">LUX</text>
 <text x="31.18" y="38.96" size="0.8128" layer="21" font="vector">RGB</text>
 <text x="29.138" y="41.302" size="0.8128" layer="22" rot="MR0">LUX</text>
 <text x="33.262" y="41.332" size="0.8128" layer="22" rot="MR0">RGB</text>
-<text x="31.772" y="47.11" size="1.27" layer="21" font="vector" rot="R180">http://publiclab.org</text>
-<text x="34.618" y="47.064" size="0.8128" layer="21" font="vector">REV-E</text>
-<text x="15.748" y="50.038" size="0.8128" layer="21" font="vector">on</text>
-<text x="6.096" y="49.784" size="0.8128" layer="21" font="vector">off</text>
+<text x="40.262" y="46.97" size="0.8128" layer="21" font="vector" rot="R180">http://publiclab.org/wiki/open-lux</text>
+<text x="36.188" y="47.214" size="0.8128" layer="21" font="vector">REV-F</text>
+<text x="16.262" y="50.378" size="0.8128" layer="21" font="vector" rot="R90">on</text>
+<text x="7.496" y="50.476" size="0.8128" layer="21" font="vector" rot="R90">off</text>
 <wire x1="54.356" y1="53.594" x2="54.366" y2="0.21" width="0" layer="20"/>
 <wire x1="0" y1="0" x2="0" y2="0.02" width="0" layer="20"/>
 <wire x1="0" y1="0.02" x2="0.01" y2="53.11" width="0" layer="20"/>
@@ -154,7 +154,6 @@
 <wire x1="16.72" y1="0.01" x2="16.73" y2="0" width="0" layer="20" curve="-90"/>
 <hole x="8" y="55.2" drill="3.1"/>
 <wire x1="37.61" y1="53.78" x2="37.6" y2="53.79" width="0" layer="20" curve="-90"/>
-<text x="31.748" y="45.86" size="1.27" layer="21" font="vector">/wiki/open-lux</text>
 <text x="37.336" y="48.918" size="0.8128" layer="22" font="vector" rot="MR270">D9</text>
 <text x="34.636" y="49.218" size="0.8128" layer="22" font="vector" rot="MR270">GND</text>
 <text x="32.236" y="48.718" size="0.8128" layer="22" font="vector" rot="MR270">D8</text>
