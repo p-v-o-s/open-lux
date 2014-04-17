@@ -128,13 +128,13 @@
 <rectangle x1="25.908" y1="33.274" x2="27.813" y2="35.179" layer="21" rot="R45"/>
 <text x="53.086" y="39.116" size="1.778" layer="21">+</text>
 <text x="53.34" y="29.972" size="1.778" layer="21">-</text>
-<text x="51.816" y="17.272" size="0.8128" layer="22" rot="MR180">GND</text>
+<text x="43.516" y="11.872" size="0.8128" layer="22" rot="MR180">GND</text>
 <text x="17.272" y="51.562" size="0.8128" layer="22" rot="MR0">NOKIA 5110</text>
-<text x="51.562" y="14.732" size="0.8128" layer="22" rot="MR180">MOSI</text>
-<text x="51.908" y="10.362" size="0.8128" layer="22" rot="MR90">VBUS</text>
-<text x="44.662" y="10.326" size="0.8128" layer="22" rot="MR90">MISO</text>
-<text x="43.68" y="15.478" size="0.8128" layer="22" rot="MR180">SCK</text>
-<text x="41.91" y="17.272" size="0.8128" layer="22" rot="MR180">RESET</text>
+<text x="42.862" y="15.532" size="0.8128" layer="22" rot="MR180">MOSI</text>
+<text x="45.638" y="16.708" size="0.8128" layer="22" rot="MR0">VBUS</text>
+<text x="52.262" y="16.126" size="0.8128" layer="22" rot="MR90">MISO</text>
+<text x="52.322" y="13.48" size="0.8128" layer="22" rot="MR90">SCK</text>
+<text x="52.228" y="9.51" size="0.8128" layer="22" rot="MR90">RESET</text>
 <text x="54.102" y="51.816" size="1.4224" layer="22" font="vector" rot="MR270">publiclab.org/wiki/open-lux</text>
 <text x="38.788" y="49.242" size="1.6764" layer="21" font="vector" rot="R180">***OPEN-LUX***</text>
 <text x="2.032" y="8.128" size="1.27" layer="21" font="vector" rot="R270">USB</text>
