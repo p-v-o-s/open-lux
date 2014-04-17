@@ -205,8 +205,7 @@
 <wire x1="10.89" y1="-0.23" x2="10.5" y2="-0.62" width="0" layer="20" curve="90"/>
 <wire x1="6.03" y1="-0.24" x2="5.97" y2="-0.3" width="0" layer="20" curve="90"/>
 <wire x1="5.53" y1="-0.7" x2="5.03" y2="-0.26" width="0" layer="20" curve="90"/>
-<wire x1="5.03" y1="-0.26" x2="0.27" y2="-0.26" width="0" layer="20"/>
-<wire x1="0.27" y1="-0.26" x2="0.26" y2="-0.26" width="0" layer="20"/>
+<wire x1="5.03" y1="-0.26" x2="-0.2" y2="-0.26" width="0" layer="20"/>
 <wire x1="45.39" y1="-0.66" x2="45.41" y2="-0.68" width="0" layer="20" curve="-90"/>
 <hole x="46.32" y="-1.6" drill="3.1"/>
 <wire x1="48.67" y1="-1.36" x2="48.42" y2="-2.45" width="0" layer="20"/>
@@ -223,8 +222,10 @@
 <wire x1="53.93" y1="-0.2" x2="54.37" y2="0.24" width="0" layer="20" curve="90"/>
 <wire x1="-0.55" y1="53.19" x2="-0.55" y2="53.38" width="0" layer="20"/>
 <wire x1="0.34" y1="54.27" x2="-0.55" y2="53.38" width="0" layer="20" curve="90"/>
-<wire x1="0.26" y1="-0.26" x2="-0.2" y2="-0.26" width="0" layer="20"/>
 <wire x1="-0.2" y1="-0.26" x2="-0.56" y2="0.1" width="0" layer="20" curve="-90"/>
+<text x="5.024" y="38.964" size="0.8128" layer="21" font="vector" rot="R270">Btn2</text>
+<text x="4.974" y="49.314" size="0.8128" layer="21" font="vector" rot="R270">Btn3</text>
+<text x="4.834" y="28.764" size="0.8128" layer="21" font="vector" rot="R270">Btn1</text>
 </plain>
 <libraries>
 <library name="SparkFun">
