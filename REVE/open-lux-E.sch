@@ -17026,7 +17026,7 @@ I2C</description>
 <part name="U$5" library="microbuilder" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M08" device="LOCK"/>
-<part name="IC1" library="microchip" deviceset="24*" device="SN" technology="AA128" value="24AA128SN"/>
+<part name="EEPRM" library="microchip" deviceset="24*" device="SN" technology="AA128" value="24AA128SN"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
 <part name="RE1" library="rcl" deviceset="R-EU_" device="R0805" value="1.5K"/>
@@ -17191,7 +17191,7 @@ I2C</description>
 <instance part="U$5" gate="G$1" x="543.814" y="-18.542"/>
 <instance part="P+9" gate="VCC" x="543.814" y="47.498"/>
 <instance part="JP2" gate="G$1" x="297.18" y="147.32"/>
-<instance part="IC1" gate="G$1" x="223.52" y="-74.93"/>
+<instance part="EEPRM" gate="G$1" x="223.52" y="-74.93"/>
 <instance part="GND6" gate="1" x="231.14" y="-88.9"/>
 <instance part="P+10" gate="VCC" x="231.14" y="-57.15"/>
 <instance part="RE1" gate="G$1" x="3.81" y="110.49" smashed="yes" rot="R90">
@@ -17401,20 +17401,20 @@ I2C</description>
 <pinref part="JP2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="EEPRM" gate="G$1" pin="GND"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="231.14" y1="-86.36" x2="231.14" y2="-85.09" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="A2"/>
-<pinref part="IC1" gate="G$1" pin="A1"/>
+<pinref part="EEPRM" gate="G$1" pin="A2"/>
+<pinref part="EEPRM" gate="G$1" pin="A1"/>
 <wire x1="210.82" y1="-74.93" x2="210.82" y2="-77.47" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="A0"/>
+<pinref part="EEPRM" gate="G$1" pin="A0"/>
 <wire x1="210.82" y1="-77.47" x2="210.82" y2="-80.01" width="0.1524" layer="91"/>
 <junction x="210.82" y="-77.47"/>
 <wire x1="210.82" y1="-80.01" x2="210.82" y2="-86.36" width="0.1524" layer="91"/>
 <junction x="210.82" y="-80.01"/>
 <wire x1="210.82" y1="-86.36" x2="231.14" y2="-86.36" width="0.1524" layer="91"/>
 <junction x="231.14" y="-86.36"/>
-<pinref part="IC1" gate="G$1" pin="WP"/>
+<pinref part="EEPRM" gate="G$1" pin="WP"/>
 <wire x1="210.82" y1="-69.85" x2="210.82" y2="-74.93" width="0.1524" layer="91"/>
 <junction x="210.82" y="-74.93"/>
 </segment>
@@ -17695,7 +17695,7 @@ I2C</description>
 <pinref part="JP2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="VCC"/>
+<pinref part="EEPRM" gate="G$1" pin="VCC"/>
 <pinref part="P+10" gate="VCC" pin="VCC"/>
 <wire x1="231.14" y1="-59.69" x2="231.14" y2="-62.23" width="0.1524" layer="91"/>
 </segment>
@@ -17933,7 +17933,7 @@ I2C</description>
 <pinref part="JP2" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="SDA"/>
+<pinref part="EEPRM" gate="G$1" pin="SDA"/>
 <wire x1="238.76" y1="-74.93" x2="240.538" y2="-74.93" width="0.1524" layer="91"/>
 <label x="240.538" y="-74.168" size="1.778" layer="95"/>
 </segment>
@@ -17978,7 +17978,7 @@ I2C</description>
 <pinref part="JP2" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="SCL"/>
+<pinref part="EEPRM" gate="G$1" pin="SCL"/>
 <wire x1="210.82" y1="-67.31" x2="207.518" y2="-67.31" width="0.1524" layer="91"/>
 <label x="207.01" y="-66.548" size="1.778" layer="95"/>
 </segment>
