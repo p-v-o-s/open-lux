@@ -15,7 +15,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -134,7 +134,6 @@
 <text x="38.504" y="7.672" size="0.8128" layer="22" rot="MR0">MISO</text>
 <text x="39.02" y="8.228" size="0.8128" layer="22" rot="MR180">SCK</text>
 <text x="44.16" y="4.372" size="0.8128" layer="22" rot="MR180">RST</text>
-<text x="54.152" y="33.936" size="1.4224" layer="22" font="vector" rot="MR270">publiclab.org/wiki/open-lux</text>
 <text x="42.798" y="51.142" size="2.1844" layer="21" font="vector" rot="R180">****OPEN-LUX****</text>
 <text x="1.142" y="8.188" size="1.27" layer="21" font="vector" rot="R270">USB</text>
 <text x="49.14" y="34.16" size="1.27" layer="21" font="vector" rot="R270">JST</text>
