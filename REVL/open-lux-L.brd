@@ -18,8 +18,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -1322,7 +1322,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="29.882" y="14.169" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="RC" library="rcl" package="R0805" value="22K" x="32.067" y="8.584" smashed="yes" rot="R270">
-<attribute name="NAME" x="30.129" y="8.497" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="30.049" y="9.337" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="29.527" y="9.219" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="BAT1" library="SparkFunNew" package="BATTCOM_20MM_PTH_SMT" value="LIR2032" x="46.826" y="24.153" rot="R270"/>
@@ -1337,7 +1337,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="15.653" y="6.626" size="1.27" layer="27"/>
 </element>
 <element name="C3" library="resistor" package="C0805" value="10u" x="32.816" y="4.796" smashed="yes" rot="R180">
-<attribute name="NAME" x="33.141" y="3.684" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="35.901" y="3.664" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="33.705" y="7.082" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="ISP" library="pinhead" package="2X03" value="" x="39.939" y="2.878" smashed="yes" rot="MR180">
@@ -1528,7 +1528,9 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="49.195" y="5.37" size="0.8128" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="49.195" y="9.18" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="JP1" library="SparkFun-Connectors" package="1X05_LOCK" value="" x="23.18" y="1.53"/>
+<element name="JP1" library="SparkFun-Connectors" package="1X05_LOCK" value="" x="23.18" y="1.53" smashed="yes">
+<attribute name="VALUE" x="21.91" y="-1.645" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
