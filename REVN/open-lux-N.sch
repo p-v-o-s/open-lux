@@ -3477,24 +3477,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="7.2" y1="-4" x2="-7.2" y2="-4" width="0.127" layer="25"/>
 <wire x1="-7.2" y1="-4" x2="-7.2" y2="-2" width="0.127" layer="25"/>
 </package>
-<package name="AYZ0202">
-<description>&lt;b&gt;DPDT Slide Switch SMD&lt;/b&gt;
-www.SparkFun.com SKU : Comp-SMDS</description>
-<wire x1="-3.6" y1="1.75" x2="-3.6" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="-3.6" y1="-1.75" x2="3.6" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="3.6" y1="-1.75" x2="3.6" y2="1.75" width="0.2032" layer="21"/>
-<wire x1="3.6" y1="1.75" x2="-3.6" y2="1.75" width="0.2032" layer="21"/>
-<smd name="3" x="2.5" y="2.825" dx="1" dy="1.15" layer="1"/>
-<smd name="2" x="0" y="2.825" dx="1" dy="1.15" layer="1"/>
-<smd name="1" x="-2.5" y="2.825" dx="1" dy="1.15" layer="1"/>
-<smd name="6" x="2.5" y="-2.825" dx="1" dy="1.15" layer="1"/>
-<smd name="5" x="0" y="-2.825" dx="1" dy="1.15" layer="1"/>
-<smd name="4" x="-2.5" y="-2.825" dx="1" dy="1.15" layer="1"/>
-<text x="-2.54" y="1.143" size="0.4064" layer="25">&gt;Name</text>
-<text x="0.508" y="1.143" size="0.4064" layer="27">&gt;Value</text>
-<hole x="1.5" y="0" drill="0.85"/>
-<hole x="-1.5" y="0" drill="0.85"/>
-</package>
 <package name="USD-SOCKET-PP">
 <description>OLD Production Socket. DO NOT USE for production boards.</description>
 <wire x1="-6.725" y1="5.5" x2="-6.725" y2="17" width="0.2032" layer="21"/>
@@ -3603,36 +3585,6 @@ www.SparkFun.com SKU : Comp-SMDS</description>
 <text x="-3.81" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="-" x="5.08" y="0" visible="off" length="short" direction="pwr" rot="R180"/>
 <pin name="+" x="-5.08" y="0" visible="off" length="short" direction="pwr"/>
-</symbol>
-<symbol name="AYZ0202">
-<wire x1="1.27" y1="5.08" x2="-2.286" y2="2.794" width="0.254" layer="94"/>
-<wire x1="-2.286" y1="-4.826" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="6.35" x2="2.54" y2="7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="7.62" x2="-2.54" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-10.16" x2="2.54" y2="-8.89" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-6.35" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="2.54" y1="3.81" x2="2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="4.064" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
-<circle x="-2.54" y="2.54" radius="0.3592" width="0.254" layer="94"/>
-<circle x="2.54" y="5.08" radius="0.3592" width="0.254" layer="94"/>
-<circle x="2.54" y="0" radius="0.3592" width="0.254" layer="94"/>
-<circle x="2.54" y="-2.54" radius="0.3592" width="0.254" layer="94"/>
-<circle x="2.54" y="-7.62" radius="0.3592" width="0.254" layer="94"/>
-<circle x="-2.54" y="-5.08" radius="0.3592" width="0.254" layer="94"/>
-<text x="-2.54" y="8.128" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="5.08" y="5.08" visible="off" length="short" rot="R180"/>
-<pin name="2" x="-5.08" y="2.54" visible="off" length="short"/>
-<pin name="3" x="5.08" y="0" visible="off" length="short" rot="R180"/>
-<pin name="4" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
-<pin name="5" x="-5.08" y="-5.08" visible="off" length="short"/>
-<pin name="6" x="5.08" y="-7.62" visible="off" length="short" rot="R180"/>
 </symbol>
 <symbol name="USDCARD">
 <wire x1="-2.54" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
@@ -3824,28 +3776,6 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <connects>
 <connect gate="G$1" pin="+" pad="P$2"/>
 <connect gate="G$1" pin="-" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="AYZ0202">
-<description>&lt;b&gt;SPDT Slide Switch&lt;/b&gt;
-Simple SMD single-pull double-throw slide switch. Good for  less than 350mA power switch, switching UARTs between devices, etc. Spark Fun Electronics SKU : COM-00597</description>
-<gates>
-<gate name="G$1" symbol="AYZ0202" x="7.62" y="5.08"/>
-</gates>
-<devices>
-<device name="" package="AYZ0202">
-<connects>
-<connect gate="G$1" pin="1" pad="3"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="1"/>
-<connect gate="G$1" pin="4" pad="6"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10400,6 +10330,23 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <text x="1.73" y="-2.178" size="1.016" layer="21" font="vector">A</text>
 <text x="-2.938" y="-2.178" size="1.016" layer="21" font="vector">K</text>
 </package>
+<package name="EG1206">
+<wire x1="-6.25" y1="2.8" x2="6.25" y2="2.8" width="0.127" layer="21"/>
+<wire x1="6.25" y1="2.8" x2="6.25" y2="-2.8" width="0.127" layer="21"/>
+<wire x1="6.25" y1="-2.8" x2="3.37" y2="-2.8" width="0.127" layer="21"/>
+<wire x1="3.37" y1="-2.8" x2="-3.37" y2="-2.8" width="0.127" layer="21"/>
+<wire x1="-3.37" y1="-2.8" x2="-6.25" y2="-2.8" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="-2.8" x2="-6.25" y2="2.8" width="0.127" layer="21"/>
+<wire x1="-3.37" y1="-2.8" x2="-3.37" y2="-2" width="0.127" layer="21"/>
+<wire x1="-3.37" y1="-2" x2="3.37" y2="-2" width="0.127" layer="21"/>
+<wire x1="3.37" y1="-2" x2="3.37" y2="-2.8" width="0.127" layer="21"/>
+<pad name="2" x="0" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="MT2" x="6.25" y="0" drill="2.2"/>
+<pad name="MT1" x="-6.25" y="0" drill="2.2"/>
+<pad name="1" x="-3" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="3" x="3" y="0" drill="0.8" diameter="1.4224"/>
+<text x="-2.7" y="3.67" size="1.27" layer="21" font="vector">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TS2">
@@ -10536,6 +10483,27 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <vertex x="-2.921" y="-2.413"/>
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
+</symbol>
+<symbol name="TSU">
+<wire x1="0" y1="-3.175" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.905" y2="3.175" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.175" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="3.175" width="0.254" layer="94"/>
+<wire x1="-0.889" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="0" x2="-3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="1.905" x2="-5.08" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="1.905" x2="-6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-1.905" x2="-5.08" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="0" x2="-4.445" y2="0" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="0" x2="-6.35" y2="-1.905" width="0.254" layer="94"/>
+<text x="-8.255" y="-1.905" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-5.715" y="2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="P" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="S" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="O" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -11741,6 +11709,23 @@ Source: http://www.osram.convergy.de/</description>
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EG1206">
+<gates>
+<gate name="G$1" symbol="TSU" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="EG1206">
+<connects>
+<connect gate="G$1" pin="O" pad="1"/>
+<connect gate="G$1" pin="P" pad="2"/>
+<connect gate="G$1" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16619,7 +16604,7 @@ I2C</description>
 <class number="0" name="default" width="0.4064" drill="0">
 <clearance class="0" value="0.2032"/>
 </class>
-<class number="1" name="power" width="0.254" drill="0">
+<class number="1" name="power" width="0.8128" drill="0">
 <clearance class="1" value="0.2032"/>
 </class>
 </classes>
@@ -16632,7 +16617,6 @@ I2C</description>
 <part name="RC" library="rcl" deviceset="R-EU_" device="R0805" value="22K"/>
 <part name="BAT1" library="SparkFunNew" deviceset="BATTERY" device="BATTCOM_20MM_PTH_SMT" value="LIR2032"/>
 <part name="CN1" library="adafruit" deviceset="JST_2PIN" device="-SMT-RA"/>
-<part name="J1" library="SparkFunNew" deviceset="AYZ0202" device=""/>
 <part name="IC4" library="adafruit" deviceset="MCP1700" device="SOT233" value="MCP1700-33"/>
 <part name="C3" library="resistor" deviceset="C-EU" device="C0805" value="10u"/>
 <part name="ISP" library="pinhead" deviceset="PINHD-2X3" device=""/>
@@ -16738,6 +16722,7 @@ I2C</description>
 <part name="P+20" library="supply1" deviceset="VCC" device=""/>
 <part name="U$6" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$7" library="SparkFun-Connectors" deviceset="M04X2" device=""/>
+<part name="J2" library="adafruit" deviceset="EG1206" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16795,9 +16780,6 @@ I2C</description>
 <attribute name="VALUE" x="35.56" y="97.79" size="1.778" layer="96"/>
 </instance>
 <instance part="CN1" gate="G$1" x="102.87" y="91.44"/>
-<instance part="J1" gate="G$1" x="48.26" y="116.84" smashed="yes">
-<attribute name="NAME" x="45.72" y="124.968" size="1.778" layer="95"/>
-</instance>
 <instance part="IC4" gate="1" x="64.77" y="113.03" smashed="yes">
 <attribute name="NAME" x="62.23" y="119.38" size="1.778" layer="95"/>
 <attribute name="VALUE" x="57.15" y="116.84" size="1.778" layer="96"/>
@@ -16930,9 +16912,9 @@ I2C</description>
 <attribute name="VALUE" x="138.938" y="144.526" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="IR4" gate="G$1" x="153.162" y="134.366"/>
-<instance part="RE5" gate="G$1" x="153.162" y="145.034" smashed="yes" rot="R90">
-<attribute name="NAME" x="151.892" y="147.3454" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="149.352" y="144.526" size="1.778" layer="96" rot="R180"/>
+<instance part="RE5" gate="G$1" x="153.162" y="145.288" smashed="yes" rot="R90">
+<attribute name="NAME" x="151.892" y="147.5994" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="149.352" y="144.78" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="WS6" gate="G$1" x="129.54" y="196.85"/>
 <instance part="WS5" gate="G$1" x="152.4" y="196.85"/>
@@ -16955,7 +16937,7 @@ I2C</description>
 </instance>
 <instance part="WS9" gate="G$1" x="60.96" y="196.85"/>
 <instance part="WS10" gate="G$1" x="36.83" y="196.85"/>
-<instance part="IR5" gate="G$1" x="163.322" y="134.366"/>
+<instance part="IR5" gate="G$1" x="163.322" y="134.874"/>
 <instance part="RE6" gate="G$1" x="163.322" y="145.034" smashed="yes" rot="R90">
 <attribute name="NAME" x="162.052" y="147.3454" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="159.512" y="144.526" size="1.778" layer="96" rot="R180"/>
@@ -16964,6 +16946,9 @@ I2C</description>
 <instance part="P+20" gate="VCC" x="282.194" y="4.826"/>
 <instance part="U$6" gate="G$1" x="282.194" y="-23.114"/>
 <instance part="U$7" gate="G$1" x="280.67" y="120.396"/>
+<instance part="J2" gate="G$1" x="49.53" y="139.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="47.625" y="136.525" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17273,16 +17258,14 @@ I2C</description>
 </net>
 <net name="VDD" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="53.34" y1="116.84" x2="53.34" y2="113.03" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="113.03" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="113.03" x2="57.15" y2="113.03" width="0.1524" layer="91"/>
+<wire x1="52.578" y1="111.76" x2="57.15" y2="113.03" width="0.1524" layer="91"/>
 <wire x1="57.15" y1="113.03" x2="57.15" y2="105.41" width="0.1524" layer="91"/>
-<junction x="53.34" y="113.03"/>
 <pinref part="IC4" gate="1" pin="IN"/>
 <junction x="57.15" y="113.03"/>
+<wire x1="53.848" y1="128.016" x2="52.578" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="S"/>
+<wire x1="53.848" y1="128.016" x2="54.61" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -17294,11 +17277,6 @@ I2C</description>
 <label x="29.21" y="115.57" size="1.778" layer="95"/>
 <pinref part="IC2" gate="G$1" pin="VBAT"/>
 <pinref part="BAT1" gate="G$1" pin="+"/>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="119.38" x2="43.18" y2="115.57" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="43.18" y1="115.57" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
-<junction x="43.18" y="115.57"/>
 </segment>
 <segment>
 <pinref part="CN1" gate="G$1" pin="2"/>
@@ -17319,15 +17297,6 @@ I2C</description>
 <wire x1="27.94" y1="113.03" x2="33.02" y2="113.03" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="PROG"/>
 <pinref part="RC" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="121.92" x2="54.61" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="54.61" y1="121.92" x2="54.61" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="54.61" y1="114.3" x2="53.34" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -17525,7 +17494,7 @@ I2C</description>
 <wire x1="142.748" y1="155.448" x2="142.748" y2="150.114" width="0.1524" layer="91"/>
 <pinref part="RE5" gate="G$1" pin="2"/>
 <wire x1="142.748" y1="155.448" x2="153.162" y2="155.448" width="0.1524" layer="91"/>
-<wire x1="153.162" y1="155.448" x2="153.162" y2="150.114" width="0.1524" layer="91"/>
+<wire x1="153.162" y1="155.448" x2="153.162" y2="150.368" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="381.254" y1="-38.354" x2="376.174" y2="-38.354" width="0.1524" layer="91"/>
@@ -18095,7 +18064,7 @@ I2C</description>
 <segment>
 <pinref part="IR4" gate="G$1" pin="A"/>
 <pinref part="RE5" gate="G$1" pin="1"/>
-<wire x1="153.162" y1="139.954" x2="153.162" y2="136.906" width="0.1524" layer="91"/>
+<wire x1="153.162" y1="140.208" x2="153.162" y2="136.906" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -18159,17 +18128,15 @@ I2C</description>
 <net name="N$8" class="0">
 <segment>
 <pinref part="IR5" gate="G$1" pin="C"/>
-<wire x1="163.322" y1="129.286" x2="163.322" y2="128.778" width="0.1524" layer="91"/>
-<wire x1="163.322" y1="128.778" x2="163.322" y2="128.524" width="0.1524" layer="91"/>
 <wire x1="152.908" y1="124.714" x2="163.322" y2="124.714" width="0.1524" layer="91"/>
-<wire x1="163.322" y1="124.714" x2="163.322" y2="128.524" width="0.1524" layer="91"/>
+<wire x1="163.322" y1="124.714" x2="163.322" y2="129.794" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="IR5" gate="G$1" pin="A"/>
 <pinref part="RE6" gate="G$1" pin="1"/>
-<wire x1="163.322" y1="139.954" x2="163.322" y2="136.906" width="0.1524" layer="91"/>
+<wire x1="163.322" y1="139.954" x2="163.322" y2="137.414" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -18184,6 +18151,13 @@ I2C</description>
 <pinref part="WS8" gate="G$1" pin="OUT"/>
 <pinref part="WS9" gate="G$1" pin="IN"/>
 <wire x1="74.93" y1="194.31" x2="69.85" y2="199.39" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="1">
+<segment>
+<wire x1="44.45" y1="139.7" x2="43.942" y2="125.73" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="P"/>
+<wire x1="43.434" y1="115.57" x2="43.942" y2="125.73" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
