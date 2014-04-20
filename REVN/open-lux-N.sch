@@ -17642,6 +17642,11 @@ I2C</description>
 <label x="293.624" y="120.142" size="1.778" layer="95"/>
 <pinref part="JP2" gate="G$1" pin="6"/>
 </segment>
+<segment>
+<pinref part="B3" gate="1" pin="P"/>
+<wire x1="157.48" y1="25.4" x2="148.082" y2="25.4" width="0.1524" layer="91"/>
+<label x="148.336" y="26.67" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RESET" class="0">
 <segment>
@@ -17955,9 +17960,10 @@ I2C</description>
 <pinref part="JP2" gate="G$1" pin="10"/>
 </segment>
 <segment>
-<pinref part="B3" gate="1" pin="P"/>
-<wire x1="157.48" y1="25.4" x2="148.082" y2="25.4" width="0.1524" layer="91"/>
-<label x="148.336" y="26.67" size="1.778" layer="95"/>
+<pinref part="B1" gate="1" pin="P"/>
+<wire x1="157.734" y1="-5.588" x2="151.892" y2="-5.588" width="0.1524" layer="91"/>
+<wire x1="151.892" y1="-5.588" x2="151.892" y2="-5.334" width="0.1524" layer="91"/>
+<label x="150.876" y="-4.318" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A3" class="0">
@@ -17968,10 +17974,15 @@ I2C</description>
 <label x="76.2" y="47.498" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="B1" gate="1" pin="P"/>
-<wire x1="157.734" y1="-5.588" x2="151.892" y2="-5.588" width="0.1524" layer="91"/>
-<wire x1="151.892" y1="-5.588" x2="151.892" y2="-5.334" width="0.1524" layer="91"/>
-<label x="150.876" y="-4.318" size="1.778" layer="95"/>
+<label x="428.752" y="165.608" size="1.778" layer="95"/>
+<pinref part="NKA1" gate="G$1" pin="4"/>
+<wire x1="423.926" y1="165.354" x2="428.244" y2="165.354" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="423.926" y1="130.81" x2="426.974" y2="130.81" width="0.1524" layer="91"/>
+<label x="427.482" y="130.81" size="1.778" layer="95"/>
+<pinref part="NKA" gate="G$1" pin="3"/>
+<label x="427.482" y="130.81" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D4" class="0">
@@ -17981,15 +17992,11 @@ I2C</description>
 <label x="76.962" y="-10.922" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="423.926" y1="130.81" x2="426.974" y2="130.81" width="0.1524" layer="91"/>
-<label x="427.482" y="130.81" size="1.778" layer="95"/>
-<pinref part="NKA" gate="G$1" pin="3"/>
-<label x="427.482" y="130.81" size="1.778" layer="95"/>
-</segment>
-<segment>
-<label x="428.752" y="165.608" size="1.778" layer="95"/>
-<pinref part="NKA1" gate="G$1" pin="4"/>
-<wire x1="423.926" y1="165.354" x2="428.244" y2="165.354" width="0.1524" layer="91"/>
+<pinref part="MICROSD" gate="G$1" pin="CS"/>
+<wire x1="124.968" y1="-69.342" x2="121.158" y2="-69.342" width="0.1524" layer="91"/>
+<pinref part="RSD" gate="G$1" pin="1"/>
+<wire x1="121.158" y1="-69.342" x2="113.03" y2="-69.342" width="0.1524" layer="91"/>
+<label x="112.522" y="-69.342" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D8" class="0">
@@ -18032,13 +18039,6 @@ I2C</description>
 <pinref part="WS1" gate="G$1" pin="IN"/>
 <wire x1="252.73" y1="199.39" x2="261.366" y2="199.39" width="0.1524" layer="91"/>
 <label x="261.112" y="199.898" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="MICROSD" gate="G$1" pin="CS"/>
-<wire x1="124.968" y1="-69.342" x2="121.158" y2="-69.342" width="0.1524" layer="91"/>
-<pinref part="RSD" gate="G$1" pin="1"/>
-<wire x1="121.158" y1="-69.342" x2="113.03" y2="-69.342" width="0.1524" layer="91"/>
-<label x="112.522" y="-69.342" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D7" class="0">
@@ -18445,12 +18445,11 @@ I2C</description>
 <net name="N$12" class="0">
 <segment>
 <pinref part="NKA1" gate="G$1" pin="1"/>
-<wire x1="423.926" y1="157.734" x2="431.038" y2="155.194" width="0.1524" layer="91"/>
+<wire x1="423.926" y1="157.734" x2="442.214" y2="157.734" width="0.1524" layer="91"/>
 <wire x1="423.926" y1="140.97" x2="442.214" y2="140.97" width="0.1524" layer="91"/>
 <pinref part="T2" gate="A" pin="D"/>
 <pinref part="NKA" gate="G$1" pin="7"/>
 <wire x1="442.214" y1="140.97" x2="446.786" y2="140.97" width="0.1524" layer="91"/>
-<wire x1="431.038" y1="155.194" x2="442.214" y2="157.734" width="0.1524" layer="91"/>
 <wire x1="442.214" y1="157.734" x2="442.214" y2="140.97" width="0.1524" layer="91"/>
 <junction x="442.214" y="140.97"/>
 </segment>
