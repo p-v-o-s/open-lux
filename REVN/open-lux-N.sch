@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -16687,7 +16687,7 @@ I2C</description>
 <part name="Q1" library="transistor-small-signal" deviceset="BSS123" device=""/>
 <part name="IR1" library="adafruit" deviceset="LED" device="CHIP-LED0603"/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
-<part name="RE3" library="rcl" deviceset="R-EU_" device="R0805" value="1.5K"/>
+<part name="IRR1" library="rcl" deviceset="R-EU_" device="R0805" value="1.5K"/>
 <part name="LUXNIR1" library="microbuilder" deviceset="TSL2561" device="" value="TSL2561"/>
 <part name="U$3" library="microbuilder" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
@@ -16696,11 +16696,11 @@ I2C</description>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="IR2" library="adafruit" deviceset="LED" device="CHIP-LED0603"/>
-<part name="RE2" library="rcl" deviceset="R-EU_" device="R0805" value="1.5K"/>
+<part name="IRR2" library="rcl" deviceset="R-EU_" device="R0805" value="1.5K"/>
 <part name="IR3" library="adafruit" deviceset="LED" device="CHIP-LED0603"/>
-<part name="RE4" library="rcl" deviceset="R-EU_" device="R0805" value="1.5K"/>
+<part name="IRR3" library="rcl" deviceset="R-EU_" device="R0805" value="1.5K"/>
 <part name="IR4" library="adafruit" deviceset="LED" device="CHIP-LED0603"/>
-<part name="RE5" library="rcl" deviceset="R-EU_" device="R0805" value="1.5K"/>
+<part name="IRR4" library="rcl" deviceset="R-EU_" device="R0805" value="1.5K"/>
 <part name="WS6" library="adafruit" deviceset="WS2813" device=""/>
 <part name="WS5" library="adafruit" deviceset="WS2813" device=""/>
 <part name="P+14" library="supply1" deviceset="VCC" device=""/>
@@ -16717,7 +16717,7 @@ I2C</description>
 <part name="WS9" library="adafruit" deviceset="WS2813" device=""/>
 <part name="WS10" library="adafruit" deviceset="WS2813" device=""/>
 <part name="IR5" library="adafruit" deviceset="LED" device="CHIP-LED0603"/>
-<part name="RE6" library="rcl" deviceset="R-EU_" device="R0805" value="1.5K"/>
+<part name="IRR5" library="rcl" deviceset="R-EU_" device="R0805" value="1.5K"/>
 <part name="C9" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="P+20" library="supply1" deviceset="VCC" device=""/>
 <part name="U$6" library="microbuilder" deviceset="GND" device=""/>
@@ -16890,9 +16890,9 @@ I2C</description>
 </instance>
 <instance part="IR1" gate="G$1" x="117.856" y="134.62"/>
 <instance part="P+12" gate="VCC" x="117.856" y="162.052"/>
-<instance part="RE3" gate="G$1" x="117.856" y="145.288" smashed="yes" rot="R90">
-<attribute name="NAME" x="116.586" y="147.5994" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="114.046" y="144.78" size="1.778" layer="96" rot="R180"/>
+<instance part="IRR1" gate="G$1" x="117.856" y="144.272" smashed="yes" rot="R90">
+<attribute name="NAME" x="116.586" y="146.5834" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="114.046" y="143.764" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="LUXNIR1" gate="G$1" x="391.414" y="-33.274"/>
 <instance part="U$3" gate="G$1" x="376.174" y="-51.054"/>
@@ -16902,19 +16902,19 @@ I2C</description>
 <instance part="P+9" gate="VCC" x="462.534" y="-28.702"/>
 <instance part="GND10" gate="1" x="117.856" y="106.172" rot="MR0"/>
 <instance part="IR2" gate="G$1" x="131.572" y="134.366"/>
-<instance part="RE2" gate="G$1" x="131.572" y="145.034" smashed="yes" rot="R90">
-<attribute name="NAME" x="130.302" y="147.3454" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="127.762" y="144.526" size="1.778" layer="96" rot="R180"/>
+<instance part="IRR2" gate="G$1" x="131.572" y="144.526" smashed="yes" rot="R90">
+<attribute name="NAME" x="130.302" y="146.8374" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="127.762" y="144.018" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="IR3" gate="G$1" x="142.748" y="134.366"/>
-<instance part="RE4" gate="G$1" x="142.748" y="145.034" smashed="yes" rot="R90">
+<instance part="IRR3" gate="G$1" x="142.748" y="145.034" smashed="yes" rot="R90">
 <attribute name="NAME" x="141.478" y="147.3454" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="138.938" y="144.526" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="IR4" gate="G$1" x="153.162" y="134.366"/>
-<instance part="RE5" gate="G$1" x="153.162" y="145.288" smashed="yes" rot="R90">
-<attribute name="NAME" x="151.892" y="147.5994" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="149.352" y="144.78" size="1.778" layer="96" rot="R180"/>
+<instance part="IRR4" gate="G$1" x="153.162" y="145.034" smashed="yes" rot="R90">
+<attribute name="NAME" x="151.892" y="147.3454" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="149.352" y="144.526" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="WS6" gate="G$1" x="129.54" y="196.85"/>
 <instance part="WS5" gate="G$1" x="152.4" y="196.85"/>
@@ -16938,9 +16938,9 @@ I2C</description>
 <instance part="WS9" gate="G$1" x="60.96" y="196.85"/>
 <instance part="WS10" gate="G$1" x="36.83" y="196.85"/>
 <instance part="IR5" gate="G$1" x="163.322" y="134.874"/>
-<instance part="RE6" gate="G$1" x="163.322" y="145.034" smashed="yes" rot="R90">
-<attribute name="NAME" x="162.052" y="147.3454" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="159.512" y="144.526" size="1.778" layer="96" rot="R180"/>
+<instance part="IRR5" gate="G$1" x="163.322" y="145.542" smashed="yes" rot="R90">
+<attribute name="NAME" x="162.052" y="147.8534" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="159.512" y="145.034" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C9" gate="G$1" x="282.194" y="-7.874"/>
 <instance part="P+20" gate="VCC" x="282.194" y="4.826"/>
@@ -17482,19 +17482,26 @@ I2C</description>
 <wire x1="231.14" y1="-59.69" x2="231.14" y2="-62.23" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RE3" gate="G$1" pin="2"/>
+<pinref part="IRR1" gate="G$1" pin="2"/>
 <pinref part="P+12" gate="VCC" pin="VCC"/>
 <wire x1="117.856" y1="159.512" x2="117.856" y2="155.448" width="0.1524" layer="91"/>
-<pinref part="RE2" gate="G$1" pin="2"/>
-<wire x1="117.856" y1="155.448" x2="117.856" y2="150.368" width="0.1524" layer="91"/>
+<pinref part="IRR2" gate="G$1" pin="2"/>
+<wire x1="117.856" y1="155.448" x2="117.856" y2="149.352" width="0.1524" layer="91"/>
 <wire x1="117.856" y1="155.448" x2="131.572" y2="155.448" width="0.1524" layer="91"/>
-<wire x1="131.572" y1="155.448" x2="131.572" y2="150.114" width="0.1524" layer="91"/>
-<pinref part="RE4" gate="G$1" pin="2"/>
+<wire x1="131.572" y1="155.448" x2="131.572" y2="149.606" width="0.1524" layer="91"/>
+<pinref part="IRR3" gate="G$1" pin="2"/>
 <wire x1="131.572" y1="155.448" x2="142.748" y2="155.448" width="0.1524" layer="91"/>
 <wire x1="142.748" y1="155.448" x2="142.748" y2="150.114" width="0.1524" layer="91"/>
-<pinref part="RE5" gate="G$1" pin="2"/>
+<pinref part="IRR4" gate="G$1" pin="2"/>
 <wire x1="142.748" y1="155.448" x2="153.162" y2="155.448" width="0.1524" layer="91"/>
-<wire x1="153.162" y1="155.448" x2="153.162" y2="150.368" width="0.1524" layer="91"/>
+<wire x1="153.162" y1="155.448" x2="153.162" y2="150.114" width="0.1524" layer="91"/>
+<junction x="131.572" y="155.448"/>
+<junction x="142.748" y="155.448"/>
+<pinref part="IRR5" gate="G$1" pin="2"/>
+<wire x1="152.908" y1="155.448" x2="153.162" y2="155.448" width="0.1524" layer="91"/>
+<wire x1="153.162" y1="155.448" x2="163.322" y2="155.448" width="0.1524" layer="91"/>
+<wire x1="163.322" y1="155.448" x2="163.322" y2="150.622" width="0.1524" layer="91"/>
+<junction x="153.162" y="155.448"/>
 </segment>
 <segment>
 <wire x1="381.254" y1="-38.354" x2="376.174" y2="-38.354" width="0.1524" layer="91"/>
@@ -18037,34 +18044,41 @@ I2C</description>
 <wire x1="153.162" y1="128.778" x2="153.162" y2="128.524" width="0.1524" layer="91"/>
 <wire x1="142.748" y1="124.714" x2="153.162" y2="124.714" width="0.1524" layer="91"/>
 <wire x1="153.162" y1="124.714" x2="153.162" y2="128.524" width="0.1524" layer="91"/>
+<pinref part="IR5" gate="G$1" pin="C"/>
+<wire x1="152.908" y1="124.714" x2="153.162" y2="124.714" width="0.1524" layer="91"/>
+<wire x1="153.162" y1="124.714" x2="163.322" y2="124.714" width="0.1524" layer="91"/>
+<wire x1="163.322" y1="124.714" x2="163.322" y2="129.794" width="0.1524" layer="91"/>
+<junction x="153.162" y="124.714"/>
+<junction x="142.748" y="124.714"/>
+<junction x="131.572" y="124.714"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="IR1" gate="G$1" pin="A"/>
-<pinref part="RE3" gate="G$1" pin="1"/>
-<wire x1="117.856" y1="140.208" x2="117.856" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="IRR1" gate="G$1" pin="1"/>
+<wire x1="117.856" y1="139.192" x2="117.856" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="IR2" gate="G$1" pin="A"/>
-<pinref part="RE2" gate="G$1" pin="1"/>
-<wire x1="131.572" y1="139.954" x2="131.572" y2="136.906" width="0.1524" layer="91"/>
+<pinref part="IRR2" gate="G$1" pin="1"/>
+<wire x1="131.572" y1="139.446" x2="131.572" y2="136.906" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="IR3" gate="G$1" pin="A"/>
-<pinref part="RE4" gate="G$1" pin="1"/>
+<pinref part="IRR3" gate="G$1" pin="1"/>
 <wire x1="142.748" y1="139.954" x2="142.748" y2="136.906" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="IR4" gate="G$1" pin="A"/>
-<pinref part="RE5" gate="G$1" pin="1"/>
-<wire x1="153.162" y1="140.208" x2="153.162" y2="136.906" width="0.1524" layer="91"/>
+<pinref part="IRR4" gate="G$1" pin="1"/>
+<wire x1="153.162" y1="139.954" x2="153.162" y2="136.906" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -18118,25 +18132,11 @@ I2C</description>
 <junction x="439.166" y="138.43"/>
 </segment>
 </net>
-<net name="VCC1" class="0">
-<segment>
-<pinref part="RE6" gate="G$1" pin="2"/>
-<wire x1="152.908" y1="155.448" x2="163.322" y2="155.448" width="0.1524" layer="91"/>
-<wire x1="163.322" y1="155.448" x2="163.322" y2="150.114" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="IR5" gate="G$1" pin="C"/>
-<wire x1="152.908" y1="124.714" x2="163.322" y2="124.714" width="0.1524" layer="91"/>
-<wire x1="163.322" y1="124.714" x2="163.322" y2="129.794" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="IR5" gate="G$1" pin="A"/>
-<pinref part="RE6" gate="G$1" pin="1"/>
-<wire x1="163.322" y1="139.954" x2="163.322" y2="137.414" width="0.1524" layer="91"/>
+<pinref part="IRR5" gate="G$1" pin="1"/>
+<wire x1="163.322" y1="140.462" x2="163.322" y2="137.414" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
