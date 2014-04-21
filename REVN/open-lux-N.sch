@@ -16959,7 +16959,7 @@ I2C</description>
 <part name="C1" library="resistor" deviceset="C-EU" device="C0805" value="10u"/>
 <part name="RC" library="rcl" deviceset="R-EU_" device="R0805" value="22K"/>
 <part name="BAT1" library="SparkFunNew" deviceset="BATTERY" device="BATTCOM_20MM_PTH_SMT" value="LIR2032"/>
-<part name="CN1" library="adafruit" deviceset="JST_2PIN" device="-SMT-RA"/>
+<part name="JST" library="adafruit" deviceset="JST_2PIN" device="-SMT-RA"/>
 <part name="IC4" library="adafruit" deviceset="MCP1700" device="SOT233" value="MCP1700-33"/>
 <part name="C3" library="resistor" deviceset="C-EU" device="C0805" value="10u"/>
 <part name="ISP" library="pinhead" deviceset="PINHD-2X3" device=""/>
@@ -16998,7 +16998,7 @@ I2C</description>
 <part name="IC3" library="adaprog" deviceset="ATMEGA32U4" device="-AU"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="R-BTN" library="adafruit" deviceset="EVQQ2" device="" value=""/>
+<part name="RESET" library="adafruit" deviceset="EVQQ2" device="" value=""/>
 <part name="P+16" library="supply1" deviceset="VCC" device=""/>
 <part name="P+17" library="supply1" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
@@ -17122,7 +17122,7 @@ I2C</description>
 <attribute name="NAME" x="35.56" y="95.25" size="1.778" layer="95"/>
 <attribute name="VALUE" x="35.56" y="97.79" size="1.778" layer="96"/>
 </instance>
-<instance part="CN1" gate="G$1" x="102.87" y="91.44"/>
+<instance part="JST" gate="G$1" x="102.87" y="91.44"/>
 <instance part="IC4" gate="1" x="64.77" y="113.03" smashed="yes">
 <attribute name="NAME" x="62.23" y="119.38" size="1.778" layer="95"/>
 <attribute name="VALUE" x="57.15" y="116.84" size="1.778" layer="96"/>
@@ -17184,7 +17184,7 @@ I2C</description>
 <instance part="IC3" gate="G$1" x="47.752" y="8.89"/>
 <instance part="GND15" gate="1" x="90.932" y="34.29" rot="MR270"/>
 <instance part="GND16" gate="1" x="7.112" y="65.024"/>
-<instance part="R-BTN" gate="G$1" x="12.192" y="70.104" rot="R270"/>
+<instance part="RESET" gate="G$1" x="12.192" y="70.104" rot="R270"/>
 <instance part="P+16" gate="VCC" x="12.192" y="41.91"/>
 <instance part="P+17" gate="VCC" x="12.192" y="18.796"/>
 <instance part="P+2" gate="VCC" x="234.95" y="207.01"/>
@@ -17298,7 +17298,7 @@ I2C</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="CN1" gate="G$1" pin="1"/>
+<pinref part="JST" gate="G$1" pin="1"/>
 <wire x1="100.33" y1="93.98" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
 <label x="91.44" y="93.98" size="1.778" layer="95"/>
 </segment>
@@ -17403,8 +17403,8 @@ I2C</description>
 <wire x1="7.112" y1="70.104" x2="7.112" y2="67.564" width="0.1524" layer="91"/>
 <junction x="7.112" y="67.564"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<pinref part="R-BTN" gate="G$1" pin="P1"/>
-<pinref part="R-BTN" gate="G$1" pin="P"/>
+<pinref part="RESET" gate="G$1" pin="P1"/>
+<pinref part="RESET" gate="G$1" pin="P"/>
 </segment>
 <segment>
 <pinref part="WS2" gate="G$1" pin="VS"/>
@@ -17611,7 +17611,7 @@ I2C</description>
 <pinref part="J2" gate="G$1" pin="P"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="2"/>
+<pinref part="JST" gate="G$1" pin="2"/>
 <wire x1="100.33" y1="91.44" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
 <label x="91.44" y="91.44" size="1.778" layer="95"/>
 </segment>
@@ -17660,8 +17660,8 @@ I2C</description>
 <pinref part="IC3" gate="G$1" pin="/RESET"/>
 <wire x1="17.272" y1="52.07" x2="17.272" y2="67.564" width="0.1524" layer="91"/>
 <junction x="17.272" y="52.07"/>
-<pinref part="R-BTN" gate="G$1" pin="S"/>
-<pinref part="R-BTN" gate="G$1" pin="S1"/>
+<pinref part="RESET" gate="G$1" pin="S"/>
+<pinref part="RESET" gate="G$1" pin="S1"/>
 <wire x1="17.272" y1="70.104" x2="17.272" y2="67.564" width="0.1524" layer="91"/>
 <junction x="17.272" y="67.564"/>
 </segment>
