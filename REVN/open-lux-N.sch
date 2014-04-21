@@ -16998,7 +16998,7 @@ I2C</description>
 <part name="IC3" library="adaprog" deviceset="ATMEGA32U4" device="-AU"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="RESET" library="adafruit" deviceset="EVQQ2" device="" value=""/>
+<part name="RST" library="adafruit" deviceset="EVQQ2" device="" value=""/>
 <part name="P+16" library="supply1" deviceset="VCC" device=""/>
 <part name="P+17" library="supply1" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
@@ -17184,7 +17184,7 @@ I2C</description>
 <instance part="IC3" gate="G$1" x="47.752" y="8.89"/>
 <instance part="GND15" gate="1" x="90.932" y="34.29" rot="MR270"/>
 <instance part="GND16" gate="1" x="7.112" y="65.024"/>
-<instance part="RESET" gate="G$1" x="12.192" y="70.104" rot="R270"/>
+<instance part="RST" gate="G$1" x="12.192" y="70.104" rot="R270"/>
 <instance part="P+16" gate="VCC" x="12.192" y="41.91"/>
 <instance part="P+17" gate="VCC" x="12.192" y="18.796"/>
 <instance part="P+2" gate="VCC" x="234.95" y="207.01"/>
@@ -17403,8 +17403,8 @@ I2C</description>
 <wire x1="7.112" y1="70.104" x2="7.112" y2="67.564" width="0.1524" layer="91"/>
 <junction x="7.112" y="67.564"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<pinref part="RESET" gate="G$1" pin="P1"/>
-<pinref part="RESET" gate="G$1" pin="P"/>
+<pinref part="RST" gate="G$1" pin="P1"/>
+<pinref part="RST" gate="G$1" pin="P"/>
 </segment>
 <segment>
 <pinref part="WS2" gate="G$1" pin="VS"/>
@@ -17660,8 +17660,8 @@ I2C</description>
 <pinref part="IC3" gate="G$1" pin="/RESET"/>
 <wire x1="17.272" y1="52.07" x2="17.272" y2="67.564" width="0.1524" layer="91"/>
 <junction x="17.272" y="52.07"/>
-<pinref part="RESET" gate="G$1" pin="S"/>
-<pinref part="RESET" gate="G$1" pin="S1"/>
+<pinref part="RST" gate="G$1" pin="S"/>
+<pinref part="RST" gate="G$1" pin="S1"/>
 <wire x1="17.272" y1="70.104" x2="17.272" y2="67.564" width="0.1524" layer="91"/>
 <junction x="17.272" y="67.564"/>
 </segment>
