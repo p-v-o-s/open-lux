@@ -17517,7 +17517,7 @@ I2C</description>
 <part name="C1" library="resistor" deviceset="C-EU" device="C0805" value="10u"/>
 <part name="RC" library="rcl" deviceset="R-EU_" device="R0805" value="22K"/>
 <part name="BAT1" library="SparkFunNew" deviceset="BATTERY" device="BATTCOM_20MM_PTH_SMT" value="LIR2032"/>
-<part name="JST" library="adafruit" deviceset="JST_2PIN" device="-SMT-RA"/>
+<part name="USB" library="adafruit" deviceset="JST_2PIN" device="-SMT-RA"/>
 <part name="IC4" library="adafruit" deviceset="MCP1700" device="SOT233" value="MCP1700-33"/>
 <part name="C3" library="resistor" deviceset="C-EU" device="C0805" value="10u"/>
 <part name="ISP" library="pinhead" deviceset="PINHD-2X3" device=""/>
@@ -17589,7 +17589,7 @@ I2C</description>
 <part name="WS10" library="adafruit" deviceset="WS2813" device=""/>
 <part name="IR5" library="adafruit" deviceset="LED" device="CHIP-LED0603"/>
 <part name="IRR5" library="rcl" deviceset="R-EU_" device="R0805" value="1.5K"/>
-<part name="J2" library="adafruit" deviceset="EG1206" device=""/>
+<part name="SWITCH" library="adafruit" deviceset="EG1206" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M05" device="LOCK"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M05" device="LOCK"/>
 <part name="IR6" library="adafruit" deviceset="LED" device="CHIP-LED0603"/>
@@ -17659,7 +17659,7 @@ I2C</description>
 <attribute name="NAME" x="35.56" y="95.25" size="1.778" layer="95"/>
 <attribute name="VALUE" x="35.56" y="97.79" size="1.778" layer="96"/>
 </instance>
-<instance part="JST" gate="G$1" x="102.87" y="91.44"/>
+<instance part="USB" gate="G$1" x="102.87" y="91.44"/>
 <instance part="IC4" gate="1" x="64.77" y="113.03" smashed="yes">
 <attribute name="NAME" x="62.23" y="119.38" size="1.778" layer="95"/>
 <attribute name="VALUE" x="57.15" y="116.84" size="1.778" layer="96"/>
@@ -17789,7 +17789,7 @@ I2C</description>
 <attribute name="NAME" x="162.052" y="147.8534" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="159.512" y="145.034" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J2" gate="G$1" x="48.26" y="115.57" smashed="yes" rot="R270">
+<instance part="SWITCH" gate="G$1" x="48.26" y="115.57" smashed="yes" rot="R270">
 <attribute name="NAME" x="46.355" y="112.395" size="1.778" layer="95"/>
 </instance>
 <instance part="JP1" gate="G$1" x="292.1" y="147.32" rot="R180"/>
@@ -17841,7 +17841,7 @@ I2C</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="JST" gate="G$1" pin="1"/>
+<pinref part="USB" gate="G$1" pin="1"/>
 <wire x1="100.33" y1="93.98" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
 <label x="91.44" y="93.98" size="1.778" layer="95"/>
 </segment>
@@ -18132,10 +18132,10 @@ I2C</description>
 <label x="29.21" y="115.57" size="1.778" layer="95"/>
 <pinref part="IC2" gate="G$1" pin="VBAT"/>
 <pinref part="BAT1" gate="G$1" pin="+"/>
-<pinref part="J2" gate="G$1" pin="P"/>
+<pinref part="SWITCH" gate="G$1" pin="P"/>
 </segment>
 <segment>
-<pinref part="JST" gate="G$1" pin="2"/>
+<pinref part="USB" gate="G$1" pin="2"/>
 <wire x1="100.33" y1="91.44" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
 <label x="91.44" y="91.44" size="1.778" layer="95"/>
 </segment>
@@ -18977,7 +18977,7 @@ I2C</description>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="IC4" gate="1" pin="IN"/>
 <wire x1="57.15" y1="113.03" x2="57.15" y2="105.41" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="S"/>
+<pinref part="SWITCH" gate="G$1" pin="S"/>
 <wire x1="53.34" y1="113.03" x2="57.15" y2="113.03" width="0.1524" layer="91"/>
 </segment>
 </net>
