@@ -1461,7 +1461,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="20.701" y="62.611" size="1.27" layer="27"/>
 </element>
 <element name="IR1" library="adafruit" package="CHIP-LED0603" value="" x="22.098" y="33.02" smashed="yes" rot="R342">
-<attribute name="NAME" x="22.04085625" y="29.96725" size="0.8128" layer="25" rot="R72"/>
+<attribute name="NAME" x="24.51575" y="36.64585625" size="0.8128" layer="25" rot="R162"/>
 <attribute name="VALUE" x="23.71355" y="31.82739375" size="1.27" layer="27" rot="R72"/>
 </element>
 <element name="IRR1" library="rcl" package="R0805" value="1.5K" x="21.336" y="30.226" smashed="yes" rot="R162">
@@ -1469,7 +1469,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="22.724821875" y="32.445453125" size="1.27" layer="27" rot="R162"/>
 </element>
 <element name="IR2" library="adafruit" package="CHIP-LED0603" value="" x="29.972" y="33.02" smashed="yes" rot="R18">
-<attribute name="NAME" x="31.26443125" y="33.769003125" size="0.8128" layer="25" rot="R108"/>
+<attribute name="NAME" x="29.984996875" y="37.23343125" size="0.8128" layer="25" rot="R198"/>
 <attribute name="VALUE" x="31.979990625" y="33.004753125" size="1.27" layer="27" rot="R108"/>
 </element>
 <element name="IRR2" library="rcl" package="R0805" value="1.5K" x="31.242" y="30.226" smashed="yes" rot="R18">
@@ -1477,11 +1477,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="31.4229875" y="27.61408125" size="1.27" layer="27" rot="R18"/>
 </element>
 <element name="IR3" library="adafruit" package="CHIP-LED0603" value="" x="36.322" y="37.592" smashed="yes" rot="R54">
-<attribute name="NAME" x="38.240484375" y="38.2290125" size="0.8128" layer="25" rot="R144"/>
+<attribute name="NAME" x="33.6529875" y="41.034484375" size="0.8128" layer="25" rot="R234"/>
 <attribute name="VALUE" x="37.955459375" y="38.75991875" size="1.27" layer="27" rot="R144"/>
 </element>
 <element name="IRR3" library="rcl" package="R0805" value="1.5K" x="39.116" y="36.068" smashed="yes" rot="R54">
-<attribute name="NAME" x="37.0619375" y="35.833584375" size="0.8128" layer="25" rot="R54"/>
+<attribute name="NAME" x="39.9829375" y="33.801584375" size="0.8128" layer="25" rot="R54"/>
 <attribute name="VALUE" x="40.797665625" y="34.06129375" size="1.27" layer="27" rot="R54"/>
 </element>
 <element name="IR4" library="adafruit" package="CHIP-LED0603" value="" x="38.608" y="44.958" smashed="yes" rot="R90">
@@ -1521,7 +1521,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="19.249365625" y="40.76685625" size="1.27" layer="27" font="vector" rot="R108"/>
 </element>
 <element name="IR5" library="adafruit" package="CHIP-LED0603" value="" x="36.576" y="52.578" smashed="yes" rot="R126">
-<attribute name="NAME" x="36.223346875" y="50.575103125" size="0.8128" layer="25" rot="R36"/>
+<attribute name="NAME" x="34.260896875" y="49.812346875" size="0.8128" layer="25" rot="R126"/>
 <attribute name="VALUE" x="35.969996875" y="54.49240625" size="1.27" layer="27" rot="R216"/>
 </element>
 <element name="IRR5" library="rcl" package="R0805" value="1.5K" x="38.862" y="54.356" smashed="yes" rot="R306">
@@ -1554,7 +1554,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="21.51698125" y="57.332090625" size="1.27" layer="27" rot="R18"/>
 </element>
 <element name="IR8" library="adafruit" package="CHIP-LED0603" value="" x="15.494" y="52.832" smashed="yes" rot="R234">
-<attribute name="NAME" x="15.353515625" y="53.71896875" size="1.27" layer="25" rot="R324"/>
+<attribute name="NAME" x="18.53996875" y="50.178484375" size="0.8128" layer="25" rot="R234"/>
 <attribute name="VALUE" x="13.860540625" y="51.664065625" size="1.27" layer="27" rot="R324"/>
 </element>
 <element name="IRR8" library="rcl" package="R0805" value="1.5K" x="13.716" y="54.356" smashed="yes" rot="R54">
@@ -1570,7 +1570,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="13.208" y="44.577" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="IR10" library="adafruit" package="CHIP-LED0603" value="" x="15.748" y="37.592" smashed="yes" rot="R306">
-<attribute name="NAME" x="20.17951875" y="38.991028125" size="0.8128" layer="25" rot="R126"/>
+<attribute name="NAME" x="19.92551875" y="39.245028125" size="0.8128" layer="25" rot="R126"/>
 <attribute name="VALUE" x="16.354003125" y="35.677578125" size="1.27" layer="27" rot="R36"/>
 </element>
 <element name="IRR10" library="rcl" package="R0805" value="1.5K" x="13.462" y="35.814" smashed="yes" rot="R126">
