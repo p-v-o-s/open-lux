@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -130,12 +130,12 @@
 <wire x1="-0.0508" y1="70.8814" x2="0" y2="0" width="0" layer="20"/>
 <hole x="50.4" y="3.2" drill="3.2"/>
 <hole x="2.4" y="3.2" drill="3.2"/>
-<text x="17.526" y="60.071" size="2.54" layer="25" font="vector" rot="R180">OPEN</text>
-<text x="56.5404" y="59.7662" size="1.3" layer="25" rot="R315">LAB</text>
+<text x="16.9672" y="59.944" size="2.54" layer="25" font="vector" rot="R180">OPEN</text>
+<text x="29.972" y="41.8592" size="1.3" layer="25">LAB</text>
 <text x="49.276" y="35.306" size="1.9304" layer="25" rot="R270">USB</text>
-<text x="14.6304" y="54.9148" size="1.778" layer="25" font="vector" rot="R180">****</text>
-<text x="16.2306" y="61.849" size="1.778" layer="25" font="vector" rot="R180">*****</text>
-<circle x="28.4988" y="44.2722" radius="17.272" width="0.4064" layer="21"/>
+<text x="13.6906" y="54.6862" size="1.778" layer="25" font="vector" rot="R180">****</text>
+<text x="15.4178" y="61.6204" size="1.778" layer="25" font="vector" rot="R180">*****</text>
+<circle x="28.575" y="44.2722" radius="17.272" width="0.8128" layer="21"/>
 <text x="33.147" y="9.144" size="0.8128" layer="26" font="vector" rot="MR0">GND</text>
 <text x="30.734" y="7.874" size="0.8128" layer="26" font="vector" rot="MR0">GND</text>
 <text x="30.226" y="9.398" size="0.8128" layer="26" font="vector" rot="MR0">A3</text>
@@ -167,14 +167,14 @@
 <text x="45.466" y="1.016" size="0.6096" layer="26" font="vector" rot="MR180">GND</text>
 <text x="34.8234" y="8.8138" size="0.8128" layer="26" font="vector" rot="MR0">A4</text>
 <text x="35.814" y="7.747" size="0.8128" layer="26" font="vector" rot="MR0">LED</text>
-<text x="15.2146" y="57.4802" size="2.54" layer="25" font="vector" rot="R180">LUX</text>
+<text x="14.605" y="57.2008" size="2.54" layer="25" font="vector" rot="R180">LUX</text>
 <text x="38.0746" y="60.198" size="1.016" layer="26" rot="MR135">CERN Open</text>
 <text x="28.956" y="27.432" size="1.016" layer="26" rot="MR180">PUBLICLAB.ORG/WIKI/OPEN-LUX</text>
 <text x="46.4058" y="65.3288" size="1.016" layer="26" rot="MR315">Hardware License</text>
 <text x="41.7068" y="60.1218" size="1.016" layer="26" rot="MR135">Ver. 1.1</text>
 <wire x1="52.578" y1="9.144" x2="52.578" y2="7.112" width="0.3048" layer="21"/>
-<text x="57.3024" y="62.23" size="1.3" layer="25" rot="R315">PUBLIC</text>
-<text x="12.8778" y="52.9336" size="1.016" layer="25" rot="R180">REV-T</text>
+<text x="23.1902" y="41.8846" size="1.3" layer="25">PUBLIC</text>
+<text x="12.4714" y="52.9336" size="1.016" layer="25" rot="R180">REV-T</text>
 <text x="39.116" y="6.604" size="0.6096" layer="26" font="vector" rot="MR270">MISO</text>
 <wire x1="39.6748" y1="53.086" x2="48.133" y2="64.4652" width="0.254" layer="22"/>
 <wire x1="48.133" y1="64.4652" x2="44.958" y2="67.818" width="0.254" layer="22"/>
@@ -188,18 +188,18 @@
 <wire x1="52.705" y1="27.813" x2="30.1498" y2="27.4574" width="0.254" layer="22"/>
 <wire x1="30.1498" y1="27.4574" x2="28.956" y2="26.035" width="0.254" layer="22"/>
 <wire x1="28.956" y1="26.035" x2="52.832" y2="26.035" width="0.254" layer="22"/>
-<text x="7.366" y="34.163" size="0.8128" layer="25" rot="R270">GND</text>
-<text x="8.128" y="28.702" size="0.8128" layer="25" rot="R90">VBAT</text>
+<text x="4.318" y="32.3088" size="0.8128" layer="25">GND</text>
+<text x="0.381" y="32.3088" size="0.8128" layer="25">VBAT</text>
 <text x="22.6822" y="50.2158" size="0.6096" layer="25">VBUS</text>
-<text x="27.4574" y="52.1716" size="0.6096" layer="25" rot="R180">GND</text>
-<text x="29.972" y="52.1208" size="0.6096" layer="25" rot="R180">VCC</text>
-<text x="32.3596" y="52.1462" size="0.6096" layer="25" rot="R180">A0</text>
-<text x="32.9946" y="51.054" size="0.6096" layer="25">A1</text>
-<text x="24.3332" y="40.8686" size="0.6096" layer="25" rot="R180">A2</text>
-<text x="27.1272" y="40.7924" size="0.6096" layer="25" rot="R180">SCL</text>
-<text x="27.8638" y="40.2082" size="0.6096" layer="25">SDA</text>
-<text x="30.7594" y="40.259" size="0.6096" layer="25">RX</text>
-<text x="33.147" y="40.2844" size="0.6096" layer="25">TX</text>
+<text x="27.0256" y="50.9016" size="0.6096" layer="25" rot="R180">GND</text>
+<text x="29.6418" y="50.927" size="0.6096" layer="25" rot="R180">VCC</text>
+<text x="31.9786" y="51.0286" size="0.6096" layer="25" rot="R180">A0</text>
+<text x="33.4518" y="50.3682" size="0.6096" layer="25">A1</text>
+<text x="24.2316" y="40.6908" size="0.6096" layer="25" rot="R180">A2</text>
+<text x="27.051" y="40.6654" size="0.6096" layer="25" rot="R180">SCL</text>
+<text x="27.9146" y="40.1066" size="0.6096" layer="25">SDA</text>
+<text x="30.734" y="40.1066" size="0.6096" layer="25">RX</text>
+<text x="33.274" y="40.0558" size="0.6096" layer="25">TX</text>
 <text x="20.828" y="43.307" size="0.8128" layer="26" font="vector" rot="MR90">A1</text>
 <text x="23.114" y="43.307" size="0.8128" layer="26" font="vector" rot="MR90">A0</text>
 <text x="25.781" y="42.545" size="0.8128" layer="26" font="vector" rot="MR90">VCC</text>
@@ -213,9 +213,19 @@
 <text x="30.734" y="68.326" size="0.6096" layer="26" rot="MR180">A4</text>
 <text x="28.067" y="68.326" size="0.6096" layer="26" rot="MR180">MOSI</text>
 <text x="25.4" y="68.326" size="0.6096" layer="26" rot="MR180">(X)</text>
-<text x="56.769" y="57.6834" size="0.8128" layer="25" rot="R315">.org</text>
+<text x="33.4772" y="41.8338" size="0.8128" layer="25">.org</text>
 <hole x="38.208" y="43.7638" drill="3.2"/>
-<text x="20.1676" y="61.9252" size="0.8128" layer="25">publiclab.org/wiki/open-lux</text>
+<text x="27.305" y="70.104" size="0.6096" layer="25">publiclab.org/wiki/open-lux</text>
+<text x="37.6682" y="35.2298" size="0.8128" layer="21">L1</text>
+<text x="40.7416" y="43.434" size="0.8128" layer="21">L2</text>
+<text x="38.8366" y="51.1048" size="0.8128" layer="21">L3</text>
+<text x="34.2138" y="56.9214" size="0.8128" layer="21" rot="R180">L4</text>
+<text x="25.3492" y="56.9214" size="0.8128" layer="21" rot="R180">L5</text>
+<text x="19.2278" y="52.8066" size="0.8128" layer="21" rot="R180">L6</text>
+<text x="16.5354" y="43.8404" size="0.8128" layer="21" rot="R180">L7</text>
+<text x="18.4404" y="37.211" size="0.8128" layer="21" rot="R180">L8</text>
+<text x="22.1742" y="43.5356" size="0.6096" layer="25">publiclab.org/wiki/open-lux</text>
+<circle x="28.4988" y="44.1706" radius="11.684" width="0.8128" layer="21"/>
 </plain>
 <libraries>
 <library name="resistor">
@@ -1476,7 +1486,7 @@ Please make sure your boards conform to these design rules.</description>
 </autorouter>
 <elements>
 <element name="C2" library="resistor" package="C0805" value="10u" x="10.9982" y="14.478" smashed="yes" rot="R89">
-<attribute name="NAME" x="10.505840625" y="17.005896875" size="0.8128" layer="25" rot="R359"/>
+<attribute name="NAME" x="10.302640625" y="11.214696875" size="0.8128" layer="25" rot="R359"/>
 <attribute name="VALUE" x="13.268359375" y="13.549246875" size="1.27" layer="27" rot="R89"/>
 </element>
 <element name="IC2" library="SparkFunNew" package="SOT23-5" value="MCP73831" x="49.53" y="18.0594" smashed="yes" rot="R180">
@@ -1488,14 +1498,16 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="54.864003125" y="14.833603125" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C1" library="resistor" package="C0805" value="10u" x="19.1008" y="43.942" smashed="yes" rot="R90">
-<attribute name="NAME" x="18.973796875" y="46.227990625" size="0.8128" layer="25"/>
+<attribute name="NAME" x="19.913596875" y="40.766990625" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="21.3868" y="43.052996875" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="RC" library="rcl" package="R0805" value="22K" x="47.117" y="3.3782" smashed="yes" rot="R90">
 <attribute name="NAME" x="45.0088" y="2.413" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="49.657" y="2.7432" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="BAT1" library="SparkFunNew" package="BATTCOM_20MM_PTH_SMT" value="LIR2032" x="28.829" y="11.684"/>
+<element name="BAT1" library="SparkFunNew" package="BATTCOM_20MM_PTH_SMT" value="LIR2032" x="28.829" y="11.684" smashed="yes">
+<attribute name="VALUE" x="21.844" y="11.049" size="0.4064" layer="27"/>
+</element>
 <element name="USB" library="adafruit" package="JST-PH-2-SMT-RA" value="" x="3.81" y="37.5158" smashed="yes" rot="R90">
 <attribute name="NAME" x="2.794" y="35.7378" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="11.43" y="34.9758" size="1.27" layer="27" font="vector" rot="R90"/>
@@ -1505,7 +1517,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="9.2964" y="19.0754" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C3" library="resistor" package="C0805" value="10u" x="30.2006" y="23.495" smashed="yes">
-<attribute name="NAME" x="34.003165625" y="23.820496875" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="32.875034375" y="22.458303125" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="29.31160625" y="21.209" size="1.27" layer="27"/>
 </element>
 <element name="ISP" library="pinhead" package="2X03" value="" x="41.275" y="3.7338" smashed="yes" rot="MR180">
@@ -1514,7 +1526,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="U$1" library="adafruit" package="SMT-8585-BUZZER" value="BUZZER" x="12.3444" y="65.7098"/>
 <element name="Q4" library="transistor-small-signal" package="SOT23" value="BSS123" x="11.9888" y="32.4358" smashed="yes">
-<attribute name="NAME" x="10.0838" y="31.6738" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="12.7254" y="30.9118" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="10.0838" y="29.2608" size="1.27" layer="27"/>
 </element>
 <element name="RSCL" library="rcl" package="R0805" value="10K" x="3.6576" y="68.8086" smashed="yes">
@@ -1527,15 +1539,15 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="X2" library="SparkFun" package="USB-MINIB" value="USBSMD" x="47.6504" y="28.2956" rot="R180"/>
 <element name="RD-1" library="rcl" package="R0805" value="47" x="39.0906" y="20.574" smashed="yes">
-<attribute name="NAME" x="40.4622" y="18.923" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="37.4142" y="18.923" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="38.4556" y="18.034" size="1.27" layer="27"/>
 </element>
 <element name="RD+1" library="rcl" package="R0805" value="47" x="33.4518" y="20.6248" smashed="yes" rot="R180">
-<attribute name="NAME" x="33.6042" y="18.8976" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="32.9438" y="18.8468" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="34.0868" y="23.1648" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="RU1" library="rcl" package="R0805" value="1.5K" x="43.307" y="20.5486" smashed="yes">
-<attribute name="NAME" x="44.45" y="18.3642" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="44.5008" y="18.669" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="42.672" y="18.0086" size="1.27" layer="27"/>
 </element>
 <element name="X3" library="adaprog" package="NX5032" value="8MHz" x="9.1186" y="26.4922" smashed="yes" rot="R90">
@@ -1551,7 +1563,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="6.6852" y="21.5994" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="IC3" library="adaprog" package="TQFP44" value="ATMEGA32U4-AU" x="20.3454" y="19.1262" smashed="yes" rot="R225">
-<attribute name="NAME" x="19.088615625" y="21.707134375" size="0.8128" layer="25" rot="R225"/>
+<attribute name="NAME" x="21.218865625" y="20.892015625" size="0.8128" layer="25" rot="R315"/>
 <attribute name="VALUE" x="17.297696875" y="28.460078125" size="1.778" layer="27" rot="R225"/>
 </element>
 <element name="RST" library="adafruit" package="EVQ-Q2" value="" x="12.7" y="6.604" smashed="yes" rot="R90">
@@ -1657,7 +1669,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="T2" library="zetex" package="SOT-23" value="FDN340P" x="24.1554" y="8.636" smashed="yes">
 <attribute name="VALUE" x="22.7584" y="10.414" size="1.27" layer="27" ratio="10"/>
-<attribute name="NAME" x="23.9268" y="10.0076" size="0.8128" layer="25" ratio="10"/>
+<attribute name="NAME" x="22.6822" y="10.0584" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="JP2" library="SparkFun-Connectors" package="AVR_ICSP" value="M05X2PTH" x="3.8862" y="57.2516" smashed="yes">
 <attribute name="VALUE" x="1.0922" y="56.9976" size="0.4064" layer="27" font="vector" rot="R90"/>
@@ -1691,7 +1703,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MPN" value="" x="42.697403125" y="61.849" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="42.697403125" y="61.849" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="42.697403125" y="61.849" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="46.5495" y="55.1688" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="48.5815" y="55.4482" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="45.1699" y="53.975" size="1.27" layer="27"/>
 </element>
 <element name="RN1" library="resistor-dil" package="EXB38V" value="" x="28.448" y="53.3146" smashed="yes" rot="R90">
@@ -1699,7 +1711,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MPN" value="" x="27.305003125" y="53.31460625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="27.305003125" y="53.31460625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="27.305003125" y="53.31460625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="32.0461" y="55.118" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="27.3725" y="52.8828" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="30.988" y="51.3421" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="LED1" library="adafruit" package="LED3MM" value="" x="40.9702" y="34.5186" smashed="yes" rot="R144">
@@ -1731,7 +1743,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="50.7746" y="72.2884" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="CEXP1" library="adafruit" package="C0805K" value=".1uF" x="52.07" y="56.1848" smashed="yes" rot="R270">
-<attribute name="NAME" x="51.1396" y="58.6118" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="50.0494" y="58.9628" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="50.17" y="57.1848" size="1.016" layer="27" rot="R270"/>
 </element>
 </elements>
