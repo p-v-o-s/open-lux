@@ -9,7 +9,7 @@
 <grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -19,7 +19,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -138,13 +138,13 @@
 <circle x="28.575" y="44.2722" radius="17.272" width="0.8128" layer="21"/>
 <text x="33.4772" y="8.4074" size="0.8128" layer="26" font="vector" rot="MR0">GND</text>
 <text x="31.3436" y="6.8834" size="0.8128" layer="26" font="vector" rot="MR0">GND</text>
-<text x="30.8102" y="8.3312" size="0.8128" layer="26" font="vector" rot="MR0">A3</text>
-<text x="33.528" y="7.0612" size="0.8128" layer="26" font="vector" rot="MR0">A4</text>
-<text x="28.2448" y="7.874" size="0.8128" layer="26" font="vector" rot="MR0">A3</text>
-<text x="28.1178" y="9.525" size="0.8128" layer="26" font="vector" rot="MR0">D9</text>
-<text x="26.035" y="7.0866" size="0.8128" layer="26" font="vector" rot="MR0">D9</text>
-<text x="26.0096" y="8.5344" size="0.8128" layer="26" font="vector" rot="MR0">D8</text>
-<text x="23.3934" y="7.0104" size="0.8128" layer="26" font="vector" rot="MR0">D8</text>
+<text x="30.8102" y="8.3312" size="0.8128" layer="26" font="vector" rot="MR0">D11</text>
+<text x="33.528" y="7.0612" size="0.8128" layer="26" font="vector" rot="MR0">D12</text>
+<text x="28.2448" y="7.874" size="0.8128" layer="26" font="vector" rot="MR0">D11</text>
+<text x="28.1178" y="9.525" size="0.8128" layer="26" font="vector" rot="MR0">D10</text>
+<text x="26.035" y="7.0866" size="0.8128" layer="26" font="vector" rot="MR0">D10</text>
+<text x="26.0096" y="8.5344" size="0.8128" layer="26" font="vector" rot="MR0">D9</text>
+<text x="23.3934" y="7.0104" size="0.8128" layer="26" font="vector" rot="MR0">D9</text>
 <text x="23.6728" y="8.509" size="0.8128" layer="26" font="vector" rot="MR0">LCD</text>
 <text x="21.3868" y="6.985" size="0.8128" layer="26" font="vector" rot="MR0">LCD</text>
 <text x="21.2598" y="8.5852" size="0.8128" layer="26" font="vector" rot="MR0">LED</text>
@@ -165,7 +165,7 @@
 <text x="41.9608" y="0.3048" size="0.6096" layer="26" font="vector" rot="MR0">MOSI</text>
 <text x="43.0022" y="7.2644" size="0.6096" layer="26" font="vector" rot="MR180">RST</text>
 <text x="42.8752" y="0.9398" size="0.6096" layer="26" font="vector" rot="MR180">GND</text>
-<text x="35.8902" y="8.4836" size="0.8128" layer="26" font="vector" rot="MR0">A4</text>
+<text x="35.8902" y="8.4836" size="0.8128" layer="26" font="vector" rot="MR0">D12</text>
 <text x="36.3982" y="7.1628" size="0.8128" layer="26" font="vector" rot="MR0">LED</text>
 <text x="14.605" y="57.2008" size="2.54" layer="25" font="vector" rot="R180">LUX</text>
 <text x="38.0746" y="60.198" size="1.016" layer="26" rot="MR135">CERN Open</text>
