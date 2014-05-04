@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -131,7 +131,7 @@
 <hole x="50.4" y="3.2" drill="3.2"/>
 <hole x="2.4" y="3.2" drill="3.2"/>
 <text x="38.1762" y="36.7538" size="2.54" layer="25" font="vector" rot="R180">OPEN-LUX</text>
-<text x="7.747" y="56.0832" size="1.3" layer="25">LAB</text>
+<text x="7.7724" y="55.7784" size="1.6764" layer="25">LAB</text>
 <text x="51.054" y="31.1912" size="1.9304" layer="25" rot="R270">USB</text>
 <circle x="28.829" y="44.2468" radius="18.288" width="0.254" layer="21"/>
 <text x="33.4772" y="8.4074" size="0.8128" layer="26" font="vector" rot="MR0">GND</text>
@@ -170,8 +170,8 @@
 <text x="46.4058" y="65.3288" size="1.016" layer="26" rot="MR315">Hardware License</text>
 <text x="41.7068" y="60.1218" size="1.016" layer="26" rot="MR135">Ver. 1.1</text>
 <wire x1="52.578" y1="9.144" x2="52.578" y2="7.112" width="0.3048" layer="21"/>
-<text x="7.747" y="58.3692" size="1.3" layer="25">PUBLIC</text>
-<text x="31.2166" y="32.512" size="1.016" layer="25" rot="R180">REV-U</text>
+<text x="7.7216" y="58.3946" size="1.6764" layer="25">PUBLIC</text>
+<text x="31.115" y="32.6644" size="1.016" layer="25" rot="R180">REV-U</text>
 <text x="37.592" y="7.2898" size="0.6096" layer="26" font="vector" rot="MR180">MISO</text>
 <wire x1="37.4142" y1="53.4416" x2="48.133" y2="64.4652" width="0.254" layer="22"/>
 <wire x1="48.133" y1="64.4652" x2="44.958" y2="67.818" width="0.254" layer="22"/>
@@ -210,7 +210,6 @@
 <text x="34.925" y="70.3326" size="0.6096" layer="26" rot="MR180">A4</text>
 <text x="31.9024" y="70.5104" size="0.6096" layer="26" rot="MR180">MOSI</text>
 <text x="29.464" y="70.358" size="0.6096" layer="26" rot="MR180">(X)</text>
-<text x="12.6238" y="58.166" size="0.8128" layer="25" rot="R225">.org</text>
 <text x="27.4828" y="69.7992" size="0.6096" layer="25">publiclab.org/wiki/open-lux</text>
 <text x="39.5986" y="36.8554" size="0.8128" layer="21" rot="R90">L1</text>
 <text x="40.5638" y="42.5958" size="0.8128" layer="21">L2</text>
@@ -220,7 +219,7 @@
 <text x="19.2278" y="51.9176" size="0.8128" layer="21" rot="R180">L6</text>
 <text x="16.7386" y="43.9674" size="0.8128" layer="21" rot="R180">L7</text>
 <text x="17.7038" y="37.719" size="0.8128" layer="21" rot="R270">L8</text>
-<circle x="28.5242" y="44.069" radius="13.716" width="0.254" layer="21"/>
+<circle x="28.6258" y="44.3484" radius="13.208" width="0.254" layer="21"/>
 <wire x1="44.9326" y1="30.3784" x2="44.7802" y2="30.3784" width="0.254" layer="22"/>
 <wire x1="44.7802" y1="30.3784" x2="44.7802" y2="28.6004" width="0.254" layer="22"/>
 <wire x1="28.5242" y1="30.7848" x2="28.448" y2="30.7848" width="0.4064" layer="21"/>
